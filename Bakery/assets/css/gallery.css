@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Explora&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Dancing+Script&family=Explora&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    width: 80%;
+   margin: auto;
+
+ 
+}
+img {
+    width: 100%;
+}
+.header{
+    
+  
+overflow: hidden;
+text-decoration: none;
+}
+.h{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+ background-color: white;
+  
+  
+      padding-top: 20px;
+   
+   margin: auto;
+   
+}
+
+ul{
+     list-style-type: none;
+}
+img {
+    width: 100%;
+   
+}
+
+.clrfx{
+    clear: both;
+}
+.navbar img{
+    width: 10%;
+     float: left;
+     margin-top: 0;
+     position: absolute;
+
+
+
+}
+.navbar .link {
+    width: 50%;
+}
+.navbar ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar li {
+   
+    float: left;
+  
+ 
+}
+@media screen and (max-width:767px){
+    .navbar{
+        height: 10px;
+    }
+    .navbar .logo{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px 0px;
+margin-right: 50px;
+margin-left: -20px;
+    }
+    .navbar  .logo img{
+        width: 30%;
+        margin: auto;
+        margin-left: -20px;
+    }
+    .links{
+        text-align: center;
+        margin-bottom: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    }
+    .header-content {
+     float: none;
+     margin: auto;
+     width: 80%;
+     margin-top: 40px;
+     padding-top: 30%;
+     text-align: center;
+    }
+    .header-content p  {
+        
+        font-size: 15px;
+      
+       }
+       .header-content h1  {
+        
+        font-size: 20px;
+      
+       }
+         
+     
+     }
+    
+  @media screen and (min-width:768px) and (max-width:1000px){
+    .header-content {
+     float: none;
+     margin: auto;
+     width: 80%;
+     margin-top: 40px;
+     text-align: center;
+    }
+    .header-content p  {
+        
+        font-size: 20px;
+      
+       }
+       .header-content h1  {
+        
+        font-size: 30px;
+      
+       }
+
+}
+.navbar ul li a{
+    margin-right: 25%;
+     margin-left: 20px;
+    font-size: larger;
+    font-weight: 400;
+    color: #595959;
+}
+
+
+
+.page-title{
+    background-color: #f8f8f8;
+    margin-top:5% ;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.page-title h1{
+    font-family: "Alegreya";
+    font-size: 36px;
+    color: #303030;
+line-height: 1.38em;
+font-weight: 400;
+margin-top: 30px;
+}
+
+@media screen and (max-width:767px){
+    .page-title{
+      margin-top: 50px;
+      padding-top: 90px;
+    }
+      .img  .secimg{
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+      }
+    
+      
+       
+       }
+      
+    @media screen and (min-width:768px) and (max-width:1000px){
+      .page-title{
+          margin-top: 50px;
+          padding-top: 70px;
+        }
+        .page-title p{
+          padding-bottom: 30px;
+        }
+          }
+
+
+.img{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.secimg img{
+    width: 100%;
+    height: 400px;
+}
+.secimg{
+    float:left;
+    width: 33.3%;
+padding: 5px;
+   box-sizing: border-box;
+  
+   
+}
+
+.page-title p{
+    color: #952f2f;
+    margin-top: 25px;
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.bar{
+    position:fixed;
+right: 0;
+top: 200px;
+height: 86px;
+width: 42px;
+background: #fff;
+border-radius: 4px 0 0 4px;
+box-shadow: 0 -1px 17px 1px rgba(0,0,0,.09);
+text-align: center;
+line-height: 42px;
+font-size: 22px;
+z-index: 3;
+}
+.bar i{
+    color: #666;
+}
+
+
+
+
+
+
+.footer-main{
+
+    background-color: #403d38;
+    padding-bottom: 25%;
+    }
+     .title h4{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Alegreya";
+    }
+    .textwidget{
+        width: 25%;
+        float: left;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .textwidget p{
+        color: #969696;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: "Alegreya Sans";
+    }
+    .textwidget li{
+        color: #969696;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: "Alegreya Sans";
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        margin-bottom: 10px;
+    padding-bottom: 12px;
+    }
+    .textwidget i{
+        color: #969696;
+    font-size: 16px;
+        font-weight: 400;
+        display: inline-block;
+       
+        margin-bottom: 10px;
+    margin-right: 10px;
+    }
+    
+    .textwidget span ,a{
+        color: #969696;
+      
+          
+    }
+    #ii{
+        float: left;
+    }
+    .s{
+       
+     margin-left: 10px;
+     margin-top: 0px;
+    
+    }
+    #a{
+      
+        padding-bottom: 0px;
+    }
+    
+    
+    
+    .bar{
+        position:fixed;
+    right: 0;
+    top: 200px;
+    height: 86px;
+    width: 42px;
+    background: #fff;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 -1px 17px 1px rgba(0,0,0,.09);
+    text-align: center;
+    line-height: 42px;
+    font-size: 22px;
+    z-index: 3;
+    }
+    .bar i{
+        color: #666;
+    }
+    
+    
+    
+    
+    .footer-bottom{
+        padding-bottom: 1%;
+        background-color: #353330;
+    }
+    .footer-image {
+        width: 25%;
+        
+        margin: auto;
+        padding: 30px;
+    }
+    #pfooter{
+    border-bottom-style: none;
+    }
+    
+    .footer-bottom{
+        text-align: center;
+    }
+    .footer-bottom .copyright {
+        font-size: 15px;
+        color: #777;
+       
+      }
+      .social-icons i{text-align: center;
+        margin-top: 20px;
+        padding: 15px 15px;
+    border-radius: 100%;
+    background-color: #484540;
+    width: 20px;
+    font-size: 20px;
+    
+      }.footer ul{
+        list-style-type: " >    ";
+    }
+    .ulnone ul{
+        list-style-type: none;
+    }
+    @media screen and (max-width:800px){
+        .footer-main {
+         float: none;
+        height: 180vh;
+         width: 100%;
+        
+     
+        }
+        .textwidget  {
+            width: 100%;
+           
+          
+           }
+         
+          
+             
+         
+         }
+         @media screen and (min-width:768px) and (max-width:1000px){
+            .footer-main {
+                float: none;
+                margin: auto;
+                width: 100%;
+                margin-top: 40px;
+               height: 55vh;
+               }
+               .textwidget{
+                width: 50%;
+               }
+               .footer-bottom {
+                float: none;
+                margin: auto;
+                width: 100%;
+                
+            padding: 0px;
+               }
+          
+          
+        
+        }
